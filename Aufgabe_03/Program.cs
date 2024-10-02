@@ -1,4 +1,4 @@
-﻿int i = 1;
+﻿byte i = 1;
 
 while (i <= 10)
 {

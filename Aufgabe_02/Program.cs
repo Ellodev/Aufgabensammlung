@@ -29,3 +29,6 @@ int seconds = days * 24 * 60 * 60;
 
 Console.WriteLine("Der Monat hat " + seconds + " Sekunden.");
 
+Console.WriteLine("\nPress any key ...");
+Console.ReadKey();
+
