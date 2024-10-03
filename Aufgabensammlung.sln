@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe_18", "Aufgabe_18\Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe_19", "Aufgabe_19\Aufgabe_19.csproj", "{CA45B4F4-C60E-4ABF-82EF-7BE3F233B638}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waldbrandSim", "waldbrandSim\waldbrandSim.csproj", "{5365B355-EF48-4FB1-A293-60F5870D497D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{CA45B4F4-C60E-4ABF-82EF-7BE3F233B638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA45B4F4-C60E-4ABF-82EF-7BE3F233B638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA45B4F4-C60E-4ABF-82EF-7BE3F233B638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5365B355-EF48-4FB1-A293-60F5870D497D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5365B355-EF48-4FB1-A293-60F5870D497D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5365B355-EF48-4FB1-A293-60F5870D497D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5365B355-EF48-4FB1-A293-60F5870D497D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
