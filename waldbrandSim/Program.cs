@@ -1,4 +1,6 @@
-﻿namespace waldbrandSim;
+﻿using System.Text;
+
+namespace waldbrandSim;
 
 class Program
 {
@@ -67,16 +69,18 @@ class Program
     }
     static void PrintMap(string[,] map, int mapWidth, int mapHeight )
     {
-        //Console.Clear();
+        StringBuilder printMap = new StringBuilder();
+        
         for (int i = 0; i < mapHeight; i++)
         {
             for (int j = 0; j < mapWidth; j++)
             {
-                Console.Write(map[j, i]);
+                printMap.Append(map[j,i]);
             }
-            Console.WriteLine();
+            printMap.AppendLine();
         }
-        Console.WriteLine();
+        Console.Clear();
+        Console.Write(printMap.ToString());
     }
     static void randomFire(string[,] map, string[] materials, int mapWidth, int mapHeight, int[,] mapTime, int fireChance)
     {
@@ -118,7 +122,7 @@ class Program
                 }
             }
 
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(500);
         }
     }
     static void neighbourFire(string[,] map, string[] materials, int mapWidth, int mapHeight,  int[,] mapTime)
@@ -277,7 +281,7 @@ class Program
                 }
             }
         }
-        System.Threading.Thread.Sleep(1000);
+        System.Threading.Thread.Sleep(500);
     }
 }
     
